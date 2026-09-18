@@ -54,7 +54,7 @@ class BankManagement{
                                         System.out.println("Enter your pin: ");
                                         int bpin = in.nextInt();
                                         System.out.println("Enter amount: ");
-                                        int amount = in.nextInt();
+                                        double amount = in.nextDouble();
 
                                         Account account = acc.get(accn);
 
@@ -96,7 +96,7 @@ class BankManagement{
                                         System.out.println("Enter your pin: ");
                                         int bpin = in.nextInt();
                                         System.out.println("Enter amount: ");
-                                        int amount = in.nextInt();
+                                        double amount = in.nextDouble();
 
                                         Account account = acc.get(accn);
 
